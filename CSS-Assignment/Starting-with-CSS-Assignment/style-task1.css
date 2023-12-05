@@ -1,0 +1,12 @@
+.header{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 400px;
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: rosybrown;
+}

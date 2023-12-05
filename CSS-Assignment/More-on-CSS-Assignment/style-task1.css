@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+}
+.nav-bar{
+    padding: 20px;
+    background-color: #1877f2;
+}
+a{
+    margin: 0 20px 0 20px;
+    color: #fff;
+}
+a:hover{
+    color: #ccc;
+}

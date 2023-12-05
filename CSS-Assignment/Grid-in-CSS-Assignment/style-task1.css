@@ -1,0 +1,34 @@
+.container{
+    display: grid;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-columns: 16% 16% 16%;
+    grid-template-areas: 
+        'IMAGE1 IMAGE1 IMAGE2'
+        'IMAGE3 IMAGE4 IMAGE5' 
+        'IMAGE3 IMAGE6 IMAGE5'
+        ;
+    gap: 40px;
+}
+.img1{
+    grid-area: IMAGE1; 
+}
+.img2{
+    grid-area: IMAGE2;
+}
+.img3{
+    grid-area: IMAGE3;
+}
+.img4{
+    grid-area: IMAGE4;
+}
+.img5{
+    grid-area: IMAGE5;
+}
+.img6{
+    grid-area: IMAGE6;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}

@@ -1,0 +1,39 @@
+<!--Task1: Create a simple page with some div tags and show different ways to add CSS as well as what happens when you target the same elements with inline, internal and external CSS. Also, utilize comments in the project where required -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starting with CSS</title>
+    <link rel="stylesheet" href="./style-task1.css">
+    <style>
+        *{
+            text-align: center;
+            font-family: sans-serif;
+        }
+        .content{
+            height: 550px;
+            width: 100%;
+        }
+        /* Here I'm targeting  the first div using inline, internal and external CSS, where the outcomes show that if we embed inline, internal and external CSS, the styles will be applied in the following order of precedence 
+
+        inline>internal>external
+        
+        */
+        .header{
+            background-color: red;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <!-- Here in the first div I used Inline CSS using style attribute -->
+    <div class="header" style="height: 100px; width: 100%; background-color: #ccc;">This is Header</div>
+
+    <!-- Here in the second div I used Internal CSS using style tag in the head section -->
+    <div class="content">Your content goes here</div>
+
+    <!-- Here in the third div I used External CSS using an external CSS file with .css extension-->
+    <div class="footer">This is Footer</div>
+</body>
+</html>

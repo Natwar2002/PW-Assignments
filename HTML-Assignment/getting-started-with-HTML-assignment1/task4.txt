@@ -1,0 +1,26 @@
+Task4: Write a short note on tag and element with an example?
+Solution:-
+Tags: 
+HTML tags are like keywords that defines that how web browser will format and display the content. 
+A web browser can distinguish between an HTML content and simple content with the help of tags.
+HTML tags are used to create HTML documents and render their properties. Each HTML tags have different properties.
+All HTML tags must enclosed within < > these brackets.
+Every tag in HTML perform different tasks.
+If you have used an open tag <tag>, then you must use a close tag </tag> (except some tags)
+
+Syntax: 
+	<tagname></tagname>
+Example : <h1><h1>
+In this example, <h1> is the opening tag and </h2> is closing tag.
+
+Element:
+An HTML element is a collection of start and end tags with the content inserted in between them.
+HTML Element: The HTML element consists of 3 parts.
+Opening tag: It is used to tell the browser where the content material starts.
+Closing tag: It is used to tell the browser where the content material ends.
+Content: It is the actual content material inside the opening and closing tags.
+
+Syntax: 
+	<tagname>Content</tagname>
+Example : <h1>This is a headig tag.<h1>
+In this example, <h1> is the opening tag "This is a heading tag." is the content and </h2> is closing tag. Together, they form a complete <h1> element.

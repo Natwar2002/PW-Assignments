@@ -1,0 +1,18 @@
+:root {
+    --bgColorOfPrimaryBtn: #00b7ff;
+    --bgColorOfSecondaryBtn: #6c757d;
+}
+
+button {
+    border: none;
+    color: #FFF;
+    padding: 5px 17px;
+}
+
+#primaryBtn {
+    background-color: var(--bgColorOfPrimaryBtn);
+}
+
+#secondaryBtn {
+    background-color: var(--bgColorOfSecondaryBtn);
+}

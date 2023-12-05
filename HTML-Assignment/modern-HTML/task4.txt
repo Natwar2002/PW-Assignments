@@ -1,0 +1,12 @@
+Task4:   List any 3 ways which help us in improving the accessibility of HTML.
+Solution:
+1. Semantic HTML Elements: Use appropriate HTML elements to convey the structure and meaning of content. For instance, use '<header>', '<nav>', '<main>', '<article>', '<aside>', '<footer>', tags to provide clear, organised and meaningful content structure.
+
+2. Descriptive 'alt' Attribute: Always use 'alt' attribute in images (`<img>` elements). This text should provide a clear and meaningful description of the image for users who are visually impaired.
+Example:
+    <img src="mango.jpg" alt="This is an image of a mango">
+
+
+3. Use ARIA Attribute: `aira` attributes provide additional information to assistive technologies. These can be used to label, group, and provide context for interactive elements.
+Example:
+    <button aria-label="Close">X</button>

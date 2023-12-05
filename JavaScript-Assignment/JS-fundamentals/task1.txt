@@ -1,0 +1,28 @@
+Que.1 Explain what JavaScript is and its role in web development.
+
+Solution: JavaScript is a versatile programming language that is primarily used for adding interactivity and dynamic behaviour to 
+websites. It was created by Brendan Eich while he was working at Netscape Communications Corporation in the mid-1990s.
+
+Javascript is an essential component of modern web development, along with HTML and CSS. It can manipulate the DOM (Document Object 
+Model), handle events, communicate with servers (using technologies like AJAX), and much more.
+
+Here are some key roles of JavaScript in web development:
+1. Adding Interactivity: JavaScript allows you to create interactive elements on a wee page. This includes things like form validation, 
+image sliders, pop-up dialogs, and more.
+
+2. Dynamic content: Javascript can be used to dynamically update and change the content of a web page without requiring a full page 
+reload. This creates a smoother and more engaging user experience.
+
+3. Manipulating the DOM: Javascript can manipulate the Document Object Model, which is the representation of a web page's structure in 
+the browser memory. This enables developers to add, remove, or modify elements on a web page dynamically.
+
+4. Event Handling: Javascript can respond to user interactions like clicks, keystrokes, and mouse movements. This allows for the creation
+of interactive interfaces.
+
+5. Communicating with Servers: JavaScript can make HTTP requests to servers, allowing it to fetch or send data without needing to reload 
+the entire page. This is often done using techniques like AJAX.
+
+6. Creating Web Applications: JavaScript is the foundation of many modern web applications and frameworks. Libraries like React, Vue, and 
+Angular as well as frameworks like Node.js, allow developers to build complex applications entirely using JavaScript.
+
+7. Cross-Browser Compatibility: JavaScript is supported by all major web browsers, making it a reliable choice for web development.

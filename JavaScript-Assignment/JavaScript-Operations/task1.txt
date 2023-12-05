@@ -1,0 +1,19 @@
+Que.1  Explain the role of operators in JavaScript. Why are they essential in programming?
+
+Solution: Operators in JavaScript are special symbols or keywords that are used to perform operations on one or more operands. They are essential in programming because they allow you to manipulate and perform computations on data. Here are some key reasons why operators are essential in programming:
+
+1. Arithmetic Operations: Operators like `+`, `-`, `*`, `/`, `%`, and `**` allow you to perform basic arithmetic operations on numbers. This is crucial for performing calculations in programming.
+
+2. Comparison Operations: Operators like `==`, `===`, `!=`, `!==`, `<`, `>`, `<=`, and `>=` are used to compare values. These operators help in making decisions based on conditions.
+
+3. Logical Operations: Operators like `&&` (logical AND), `||` (logical OR), and `!` (logical NOT) are used to perform logical operations. They are essential for controlling the flow of a program based on conditions.
+
+4. Assignment Operations: The `=` operator is used to assign values to variables. Other assignment operators like `+=`, `-=`, `*=`, `/=`, etc., are used to perform an operation and assign the result back to the variable.
+
+5. Increment and Decrement Operations: The `++` and `--` operators are used to increment and decrement the value of a variable by 1, respectively. These are commonly used in loops and other iterative structures.
+
+6. Bitwise Operations: JavaScript provides operators for performing bitwise operations (`&`, `|`, `^`, `~`, `<<`, `>>`, `>>>`) on binary representations of numbers. These operations are useful in situations where you need to manipulate individual bits.
+
+7. Conditional (Ternary) Operator: The conditional operator `? :` allows for a concise way to write conditional expressions. It is often used for making decisions in a single line of code.
+
+8. Typeof Operator: The `typeof` operator is used to determine the type of a value or expression. This can be useful for debugging and ensuring that you are working with the correct data types.

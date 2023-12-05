@@ -1,0 +1,29 @@
+.parent{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 80px 80px 80px;
+    grid-template-areas: 
+    'A A B'
+    'C D B';
+    gap: 50px;
+}
+.child-a{
+    grid-area: A;
+}
+.child-b{
+    grid-area: B;
+}
+.child-c{
+    grid-area: C;
+}
+.child-d{
+    grid-area: D;
+}
+.child{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: darksalmon;
+    padding: 20px;
+    font-size: xx-large;
+}

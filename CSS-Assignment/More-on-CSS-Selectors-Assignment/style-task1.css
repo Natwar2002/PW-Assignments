@@ -1,0 +1,42 @@
+/* Combinator */
+ul a {
+    color: red;
+}
+
+nav > h2 {
+    background-color: #333;
+    color: #EEE;
+}
+
+div + p {
+    color: red;
+}
+
+/* Attribute Selector */
+a[href] {
+    color: red;
+    text-decoration: none;
+}
+
+a[class="active"] {
+    color: #DDD;
+    text-decoration-line: underline;
+}
+
+a[target="_self"] {
+    background-color: #222;
+}
+
+/* Pseudo selectors */
+p:last-child::after{
+    content: "...";
+}
+
+li::marker {
+    color: red;
+}
+
+p:nth-child(even)::first-letter{
+    color: red;
+    font-size: 30px;
+}

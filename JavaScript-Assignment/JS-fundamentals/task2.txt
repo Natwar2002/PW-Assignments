@@ -1,0 +1,50 @@
+Que.2 Explain the key differences between JavaScript and HTML. Provide examples of situations where you would use each.
+
+Solution: JavaScript and HTML are two distinct technologies that work together to create dynamic and interactive web pages. Here are some
+key differences between them :
+
+1. Purpose: 
+JS- A programming language used to add interactivy, manipulate the DOM, handle events, and perform computations on the client-side(in the 
+user's browser)
+
+HTML- A markup language used to define the structure and content of a web page. It provides the basic elements like headings, paragraphs, 
+links, and more.
+
+2. Syntax: 
+JS- It has a C-like syntax and allows for the creation of variables, functions, loops etc.
+        // Example of JavaScript code
+        let greeting = "Hello, World!";
+        function sayGreeting() {
+            console.log(greeting);
+        }
+
+
+HTML-It uses tags to define elements, each enclosed in angular brackets. For example, `<h1>` is a tag for top-level heading.
+        <!-- Example of HTML code -->
+        <h1>This is a Heading</h1>
+        <p>This is a paragraph.</p>
+
+3. Responsibility: 
+JS- It's responsible for adding interactivity, Manipulating the DOM, handling events, and performing client-side operations.
+
+HTML- It's responsible for defining the structure and content of a web page. 
+
+4. Execution:
+JS- It is executed by the browser's JavaScript engine, whicb converts the code into machine instructions that the browser can understand 
+and execute.
+
+HTML- It is interpreted by the browser to render the structure and content of a web page.
+
+
+Example of Use: 
+JS: 
+Adding interactivity to a website, like form validation, image sliders, and pop-up dialogs.
+Handling user interactions such as clicks, keystrokes, and mouse movements.
+Fetching data from a server without relaoding the entire web page (AJAX)
+Creating complex web applications using frameworks like React, Angular, or Vue.js.
+
+HTML:
+Defining the structure of a webpage, including headings, paragraphs, lists, and images.
+Creating links to other pages or external resources.
+Embedding multimedia elements like images, audio, and videos.
+Setting up forms for user input.

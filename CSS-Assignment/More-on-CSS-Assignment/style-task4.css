@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(26, 188, 156);
+    background: -moz-linear-gradient(-45deg, rgb(80, 101, 97) 0%, rgb(75, 59, 82) 100%);
+    background: -webkit-linear-gradient(-45deg, rgb(80, 101, 97) 0%, rgb(75, 59, 82) 100%);
+    background: linear-gradient(135deg, rgb(80, 101, 97) 0%, rgb(75, 59, 82) 100%);
+}
+.container{
+    height: 100vh;
+    text-align: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}

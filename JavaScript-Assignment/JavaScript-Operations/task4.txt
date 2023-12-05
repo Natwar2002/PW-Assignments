@@ -1,0 +1,25 @@
+Que.4 Discuss the precedence and associativity of operators in JavaScript. Why is understanding these concepts important?
+
+Solution: In JavaScript, precedence and associativity are important concepts that dictate the order in which operators are evaluated in 
+expressions. These concepts help to clarify the expected behavior of expressions and are crucial for writing correct and predictable code.
+
+Precedence: Precedence determines the priority of operators in an expression. Operators with higher precedence are evaluated first. 
+For example, in the expression 2 + 3 * 4, multiplication has a higher precedence than addition, so 3 * 4 is evaluated first
+
+Associativity: Associativity determines the order of evaluation when operators with the same precedence appear in an expression. 
+It can be either left-to-right or right-to-left.
+
+Understanding these concepts is crucial for writing code that behaves as expected. Misunderstanding precedence and associativity can 
+lead to errors and unexpected behavior in your programs. It's especially important when working with complex expressions, conditional 
+statements, or mathematical calculations. Explicitly using parentheses when needed can improve code readability and reduce the likelihood 
+of errors.
+
+Here's an example where understanding precedence is important:
+let x = 2;
+let y = 3;
+let z = 4;
+
+let result = x + y * z;  // Without precedence, this would be (x + y) * z
+
+In this example, without understanding precedence, you might expect the result to be 20 (2 + 3 * 4), but it's actually 14 (2 + (3 * 4)) 
+due to the higher precedence of multiplication.

@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.container{
+    display: flex;
+    max-width: 1460px;
+    min-width: 1024px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.left-section{
+    width: 50%;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 80px 0;
+}
+.logo{
+    display: flex;
+    gap: 20px;
+}
+.logo img{
+    height: 81px;
+    width: 81px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 25.88px;
+}
+.nav-bar ul{
+    display: flex;
+    gap: 19.25px;
+    font-size: 15px;
+}
+.nav-bar button{
+    padding: 10.14px 12.21px;
+    border: 1px solid #33333333;
+    background-color: transparent;
+    border-radius: 5.07px;
+}
+.nav-bar .login-button{
+    background-color: #FB792B;
+    border-color: #FB792B;
+    color: #FFFFFF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+main .title{
+    font-size: 48.67px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+main .sub-title{
+    word-spacing: 18px;
+    font-size: 32.44px;
+    font-weight: 500;
+    margin-bottom: 55px;
+}
+.green-text{
+    color: #01BB0A;
+}
+.orange-text{
+    color: #FB792B;
+}
+.blue-text{
+    color: #213D77;
+}
+main .button-container{
+    display: flex;
+    gap: 17px;
+}
+main .button-container button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid #33333380;
+    border-radius: 5.07px;
+    padding: 10.14px 15.21px;
+    font-size: 18.25px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-bottom: 35px;
+}
+main .button-container .selected{
+    background-color: #213D77;
+    border: none;
+    color: #FFFFFF;
+}
+main .journey-details-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid #3333331A;
+    border-radius: 10.14px;
+    padding: 10px 0;
+}
+main .card-element{
+    display: flex;
+    align-items: center;
+}
+.card-image-container img{
+    width: 32.44px;
+    height: 32.44px;
+    margin: 0 10px 0 0;
+}
+main .option{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+main .choose-location h2{
+    font-size: 25.35px;
+    font-weight: 700;
+}
+main .choose-location span{
+    font-size: 15.21px;
+    font-weight: 400;
+    color: #333333;
+    opacity: 80%;
+}
+main .option span{
+    font-size: 15.21px;
+    font-weight: 400;
+    color: #333333;
+    opacity: 80%; 
+}
+.search-train-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #01BB0A;
+    border-radius: 10.14px;
+    border: none;
+    padding: 15px 0;
+    gap: 15px;
+    font-size: 25.35px;
+    font-weight: 900;
+    margin-top: 36.60px;
+}
+.right-section{
+    width: 50%;
+    height: auto;
+}
+.right-section img{
+    width: 100%;
+    height: 100%;
+}

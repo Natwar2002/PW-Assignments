@@ -1,0 +1,28 @@
+Task2: Explain the difference between absolute and relative positioning.
+Sol: 
+
+1. Definition:
+        Absolute Positioning : Elements are positioned relative to the nearest positioned ancestor (if any).
+        Relative Positioning : Elements are positioned relative to their normal position.
+
+2. Effect on surrounding Elements:
+        Absolute Positioning : Elements do not affect the position of the other Elements. They simply overlap with other elements.
+        Relative Positioning : Elements maintain the space they would have occupied in the normal flow.
+
+3. Normal Flow:
+        Absolute Positioning : Elements are taken out of the normal flow of the document.
+        Relative Positioning : Elements remain in the normal flow of the document.
+
+4. Scroll behaviour:
+        Absolute Positioning : Stays fixed to the viewport even when the page is scrolled.
+        Relative Positioning : Scrolls with its containing block, which can include the viewport or a parent element with a specified height.
+
+5. Syntax:
+        Absolute Positioning :   
+        .absolute-element{
+            position: absolute;
+        }
+        Relative Positioning :   
+        .relative-element{
+            position: relative;
+        }

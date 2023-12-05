@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: #111;  
+}
+a{
+    text-decoration: none;
+    padding: 15px;
+    color: #EEE;
+}
+@media  screen and (max-width: 768px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        background-color: #666;
+    }
+    a{
+        text-align: center;
+    }
+}

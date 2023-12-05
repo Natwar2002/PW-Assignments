@@ -1,0 +1,20 @@
+.card{
+    text-align: center;
+    height: auto;
+    width: 400px;
+    border: 1px solid rgba(14, 234, 223, 0.667);
+    padding: 15px;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    border-radius: 20px;
+    background-color: rgba(14, 234, 223, 0.667);
+    opacity: 0.4;
+}
+img{
+    width: 378px;
+    height: auto;
+    border-radius: 20px;
+}
+.card:hover{
+    opacity: 1;
+}

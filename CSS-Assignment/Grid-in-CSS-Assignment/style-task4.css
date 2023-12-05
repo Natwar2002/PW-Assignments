@@ -1,0 +1,24 @@
+.box {
+    border-radius: 8px;
+    padding-top: 23px;
+    padding-left: 20px;
+    background-color: #ccc;
+}
+.box:nth-child(odd){
+    background-color: #333;
+    color: #fff;
+}
+.box1 {
+    order: 1;
+}
+
+.box2 {
+    order: 1;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: 70px 70px;
+    gap: 10px;
+}

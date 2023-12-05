@@ -1,0 +1,19 @@
+Task1:   List out the features of HTML5.
+Sol:- Here are some main features of HTML5:
+        1. Semantic Tags:
+            These tags provide a clear structure to the web page content, making it more meaningful and readable for both humans and search engines. Like- <header>,<footer>,<nav>,<section>,<aside>,<article> etc.
+
+        2. Multimedia Support:
+            <audio> and <video> tags allow embedding audio and video content directly to the web page without the need if any third party plugins like Flash.
+
+        3. Geolocation API:
+            Enables web applications to access the user's geographical location information, with their permission.
+
+        4. Drag and Drop:
+            Provides native support for dragging and dropping elements within a web page, making it easier to implement interactive features.
+
+        5. Accesibility Improvements:
+            A focus on improving accesibility features to ensure web content is usable by people with disabilities.
+
+        6. Canvas:
+            <canvas> tag provides a drawing surface for creating graphics and animations via javascript.

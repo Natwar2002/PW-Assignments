@@ -1,0 +1,26 @@
+<!--Task3: Explain the use of grid-auto-rows and grid-auto-columns using code examples. 
+    Solution: The grid-auto-columns property sets a size for the columns in a grid container.
+              The grid-auto-rows property sets a size for the rows in a grid container.
+              These properties affect only when columns and rows are not explicitly sized by `grid-template-columns` and `grid-template-rows`.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <link rel="stylesheet" href="./style-task3.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">1</div>
+        <div class="child2">2</div>
+        <div class="child3">3</div>
+        <div class="child4">4</div>
+        <div class="child5">5</div>
+        <div class="child6">6</div>
+    </div>
+</body>
+</html>
+
+<!-- In this example we've created a grid container with four columns defined by `grid-area`. All rows displayed with a height of 70px that we've mentioned in `grid-auto-rows`. All columns displayed with a width of 50px that we've displayed in `grid-auto-columns`. -->

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    height: 80px;
+    top: 0;
+    color: white;
+    background-color: #222;
+}
+#logo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: fit-content;
+    font-weight: bold;
+}
+nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto 0;
+    height: fit-content;
+    font-family: 'Red Rose', cursive;
+}
+li{
+    display: inline;
+    margin: 0 15px;
+}
+.home{
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+button{
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid #a08f36;
+    border-radius: 10px;
+    color: #a08f36;
+    font-family: 'Red Rose', cursive;
+}

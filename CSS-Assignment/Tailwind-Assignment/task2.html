@@ -1,0 +1,36 @@
+<!-- Create a responsive image gallery using Tailwind CSS. The gallery should display a grid of images that adjust
+their size and layout based on the screen size. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid using Tailwind</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+
+<body class="bg-[#ccc]">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold mb-4">Image Gallery</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="rounded shadow-md bg-[#FFF] overflow-hidden">
+                <img src="https://img.freepik.com/free-photo/young-happy-woman-with-good-idea-sign-white-shirt-full-portrait_186202-4377.jpg?w=360&t=st=1699019086~exp=1699019686~hmac=f1d1ca1262268a98d99a54d0215d840f1a5b0cabbab7b5c053a538f3f8aa62dd"
+                    class="w-full hover:scale-105 transform-transition duration-300" alt="Ladki">
+            </div>
+            <div class="rounded shadow-md bg-[#FFF] overflow-hidden">
+                <img src="https://img.freepik.com/free-photo/young-happy-woman-with-good-idea-sign-white-shirt-full-portrait_186202-4377.jpg?w=360&t=st=1699019086~exp=1699019686~hmac=f1d1ca1262268a98d99a54d0215d840f1a5b0cabbab7b5c053a538f3f8aa62dd"
+                    class="w-full hover:scale-105 transform-transition duration-300" alt="Ladki">
+            </div>
+            <div class="rounded shadow-md bg-[#FFF] overflow-hidden">
+                <img src="https://img.freepik.com/free-photo/young-happy-woman-with-good-idea-sign-white-shirt-full-portrait_186202-4377.jpg?w=360&t=st=1699019086~exp=1699019686~hmac=f1d1ca1262268a98d99a54d0215d840f1a5b0cabbab7b5c053a538f3f8aa62dd"
+                    class="w-full hover:scale-105 transform-transition duration-300" alt="Ladki">
+            </div>
+
+            <!-- Add more images -->
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.container{
+    width: 50%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.box{
+    color: #FFF;
+    height: 250px;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.gray{
+    background-color: #555;
+    justify-self: end;
+}

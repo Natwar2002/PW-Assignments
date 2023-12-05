@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.header, .footer{
+    background-color: #222;
+    text-align: center;
+    color: #EEEEEE;
+    padding: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.sidebar, .content{
+    text-align: center;
+    color: #EEEEEE;
+    padding: 20px;
+    flex: 1;
+}
+.sidebar{
+    background-color: #cc6666;
+}
+.content{
+    background-color: #8d66cc;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+    .main div{
+        flex-direction: column;
+        flex: 0;
+    }
+}

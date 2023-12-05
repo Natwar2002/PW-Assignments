@@ -1,0 +1,26 @@
+<!-- Task5: Explain the difference between `justify-items` and `justify-self` using code examples. 
+     Solution: `justify-items`: This property is applied to the grid container and affects all the grid items inside it.
+               `justify-self`: This property is applied to individual grid items, allowing you to override the justify-items value for a specific item -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>CSS Grid</title>
+     <link rel="stylesheet" href="style-task5.css">
+</head>
+<body>
+     <div class="container">
+          <!-- This item is going to align in center -->
+          <div class="box red">THIS IS RED  ITEM</div>
+
+          <!-- This item is going to align in center -->
+          <div class="box blue">THIS IS BLUE ITEM</div>
+
+          <!-- This item is going to align in end -->
+          <div class="box gray">THIS IS GRAY ITEM</div>
+     </div>
+</body>
+</html>
+
+<!-- "In this code, I've applied the property `justify-items` to all the items in the container and `justify-self` to the item with the class 'gray'. As a result, all the items will be centered within the container, but the item with the class 'gray' will be positioned at the end of the container. This is because the `justify-self` property takes precedence over `justify-items` since it is defined later in the stylesheet." -->
